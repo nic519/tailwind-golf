@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+          "id": 1,
+          "name": "Economy Range",
+          "description": "",
+          "image": "/static/images/golf/product1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Premiere Range",
+          "description": "",
+          "image": "/static/images/golf/product2.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Prestige Range",
+          "description": "",
+          "image": "/static/images/golf/product3.jpg"
+        }
+      ]
+}

@@ -5,3 +5,21 @@
 .nav-item {
   @apply bg-white dark:bg-gray-800 shadow-sm hover:shadow-md transition-shadow;
 } 
+
+@layer components {
+  .text-gradient-primary {
+    @apply bg-gradient-to-r from-primary-from to-primary-to bg-clip-text text-transparent;
+  }
+  
+  .bg-gradient-primary {
+    @apply bg-gradient-to-r from-primary-from to-primary-to;
+  }
+  
+  .bg-gradient-primary-vertical {
+    @apply bg-gradient-to-b from-white to-gray-50;
+  }
+  
+  .glow-primary {
+    @apply bg-gradient-to-r from-primary-from to-primary-to blur opacity-30;
+  }
+}
