@@ -3,8 +3,8 @@ import headerNavLinks from '@/data/headerNavLinks'
 import Logo from '@/data/logo.svg'
 import Link from './Link'
 import MobileNav from './MobileNav'
-import ThemeSwitch2 from './ThemeSwitch2'
-import SearchButton from './SearchButton'
+// import ThemeSwitch2 from './ThemeSwitch2'
+// import SearchButton from './SearchButton'
 
 const Header = () => {
   let headerClass =
@@ -43,8 +43,8 @@ const Header = () => {
               </Link>
             ))}
         </div>
-        <SearchButton />
-        <ThemeSwitch2 />
+        {/* <SearchButton />
+        <ThemeSwitch2 /> */}
         <MobileNav />
       </div>
     </header>

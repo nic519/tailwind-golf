@@ -1,16 +1,28 @@
+'use client'
+
 export default function Banner() {
-    return (
-      <div className="relative h-[400px] bg-gradient-to-r from-green-600 to-green-800">
-        <div className="container mx-auto px-4 h-full flex items-center">
-          <div className="flex items-center space-x-8">
-            <img 
-              src="/static/images/golf/golf-logo.png" 
-              alt="Golf Logo" 
-              className="w-24 h-24 object-contain"
-            />
-            <h1 className="text-4xl font-bold text-white">高尔夫俱乐部</h1>
+  return (
+    <div className="h-screen w-full bg-cover bg-center bg-no-repeat relative"
+      style={{ backgroundImage: 'url("/static/images/golf/banner1.jpg")' }}>
+      <div className="absolute inset-0 bg-black/40" />
+      
+      {/* Banner Content */}
+      <div className="relative z-10 h-full flex items-center">
+        <div className="px-8 md:px-16 lg:px-24 w-full">
+          <div className="max-w-4xl">
+          <h3 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8">
+          For the love of 
+            </h3>
+            <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8">
+            Golf
+            </h1>
+            <p className="text-xl md:text-2xl text-gray-200 mb-10 max-w-2xl">
+              Experience the perfect blend of tradition and innovation in every swing
+            </p>
+         
           </div>
         </div>
       </div>
-    )
-  }
+    </div>
+  )
+}
